@@ -102,7 +102,11 @@
 // randomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom() will always return 2.
 
 const RandomizedSet = function() {
-    
+    const arr = [];
+    arr.push(2);
+    arr.push(4);
+    console.log(arr);
+    return arr;
 };
 
 /** 
