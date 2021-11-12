@@ -108,7 +108,7 @@ const RandomizedSet = function() {
     console.log(arr);
 
     for (let i = 0; i < 4; i++) arr.push(i);
-    
+
     return arr;
 };
 
@@ -117,7 +117,7 @@ const RandomizedSet = function() {
  * @return {boolean}
  */
  RandomizedSet.prototype.insert = function(val) {
-    
+    arr.push(val);
 };
 
 /** 
