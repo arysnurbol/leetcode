@@ -106,6 +106,9 @@ const RandomizedSet = function() {
     arr.push(2);
     arr.push(4);
     console.log(arr);
+
+    for (let i = 0; i < 4; i++) arr.push(i);
+    
     return arr;
 };
 
