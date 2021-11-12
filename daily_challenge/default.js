@@ -108,11 +108,6 @@ const RandomizedSet = function() {
     console.log(arr);
 
     for (let i = 0; i < 4; i++) arr.push(i);
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 2d6fb16... add to array
     return arr;
 };
 
